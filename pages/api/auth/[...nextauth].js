@@ -29,8 +29,8 @@ async function refreshAccessToken(token) {
 export default NextAuth({
   // Configure one or more authentication providers
   providers: [
-    Providers.Spotify({
-      clientId: process.env.NEXT_PUBLIC_CLIENT_ID_ID,
+    SpotifyProvider({
+      clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
       clientSecret: process.env.NEXT_PUBLIC_CLIENT_SECRET,
       authorization: LOGIN_URL
     }),
