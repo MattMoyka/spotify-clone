@@ -4,7 +4,7 @@ import Song from "./Song"
 
 function Songs() {
   const playlist = useRecoilValue(playlistState)
-  console.log('songs ', playlist)
+
   return (
     <div className="px-8 flex flex-col space-y-1 text-white">
       {playlist?.tracks.items.map((track, i) => {

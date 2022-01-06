@@ -29,7 +29,6 @@ function Sidebar() {
     }
   }, [session, spotifyApi])
 
-  console.log(playlists)
 
   return (
     <div className='text-gray-500 p-5 text-xs lg:text-sm border-r border-gray-900 scrollbar-hide overflow-y-scroll h-screen sm:max-w-[12rem] lg:max-w-[15rem] pb-36'>
