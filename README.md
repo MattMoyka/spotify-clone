@@ -1,6 +1,6 @@
 # Spotify Clone
 
-# [Click here to view deployed site](https://spotify-clone-dusky.vercel.app/login)
+# [Click here to view deployed site](https://spotify-clone-2-nine.vercel.app/)
 
 
 - [Overview](#overview)
